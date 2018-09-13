@@ -41,7 +41,6 @@ namespace DockerTest
             }
 
             app.UseHttpsRedirection();
-            Microsoft.Extensions.FileProviders.Composite;
             app.UseMvc();
         }
     }
